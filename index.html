@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f5f1eb">
+<meta name="description" content="my fashionstore — Korean fashion, modern, contemporary, quality. Temukan outfit Korean style untuk daily look kamu.">
+<title>my fashionstore — Korean Fashion & Style</title>
+<link rel="icon" href="assets/images/logo-round.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/features.css">
+</head>
+<body>
+<a class="skip" href="#main">Lewati ke konten</a>
+<header class="header"><div class="wrap nav">
+<a class="brand" href="#home"><img src="assets/images/logo-round.png" alt="Logo my fashionstore"><span>my fashion<span class="light">store</span><small>MODERN · CONTEMPORARY · QUALITY</small></span></a>
+<nav><a href="#home">Home</a><a href="#collection">Koleksi</a><a href="#gallery">Galeri</a><a href="#faq">FAQ</a><a href="#contact">Kontak</a></nav>
+<a class="cart-link" href="#order">Keranjang <span id="cart-count">0</span></a>
+</div></header>
+<main id="main">
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div class="hero-copy"><p class="eyebrow">KOREAN FASHION & STYLE</p><h1>Find your <em>everyday</em><br>kind of pretty.</h1><p class="hero-desc">Sentuhan Korean style yang effortless, feminin, dan nyaman untuk menemani setiap versi terbaik dirimu.</p><a class="btn dark" href="#collection">Explore collection <span>↗</span></a><p class="hero-note">MODERN &nbsp;|&nbsp; CONTEMPORARY &nbsp;|&nbsp; QUALITY</p></div>
+<div class="hero-media"><video autoplay muted loop playsinline controls poster="assets/images/Korean Coquette-Floral.jpg"><source src="assets/videos/korean-fashion-ad.mp4" type="video/mp4">Browser kamu tidak mendukung video.</video><div class="video-label"><span class="dot"></span> THE KOREAN EDIT <span>— 2026</span></div></div>
+</div></section>
+<div class="ticker"><span>KOREAN OUTFIT IDEAS</span><i>✳</i><span>SOFT · FEMININE · EVERYDAY</span><i>✳</i><span>YOUR STYLE, YOUR STORY</span></div>
+<section class="collection wrap section" id="collection">
+<div class="section-head"><div><p class="eyebrow">PILIHAN UNTUK HARI-HARIMU</p><h2>Temukan <em>favoritmu.</em></h2><p class="muted">Pilihan look manis dan effortless untuk daily outfit kamu.</p></div><span class="collection-tag">THE EVERYDAY EDIT / 01</span></div>
+<div class="tools"><label class="search">⌕ <input id="search" type="search" placeholder="Cari outfit favoritmu..." aria-label="Cari produk"></label><select id="filter" aria-label="Filter koleksi"><option value="all">All styles</option><option value="coquette">Coquette</option><option value="casual">Casual</option><option value="feminine">Feminine</option></select></div>
+<p id="result-count" class="result-count" aria-live="polite"></p><div id="products" class="products"></div>
+<p class="catalog-note">Semua produk berukuran AllSize. Harga katalog adalah estimasi dan perlu dikonfirmasi admin sebelum pembayaran.</p>
+</section>
+<section class="editorial" id="our-story"><div class="wrap editorial-grid"><div class="editorial-image"><img src="assets/images/Korean Cream-Floral.jpg" alt="Inspirasi outfit Korean style floral warna cream"></div><div class="editorial-copy"><p class="eyebrow">CERITA KAMI</p><h2>Gaya lembut.<br><em>Rasa percaya diri.</em></h2><p>Temukan inspirasi Korean outfit dengan detail manis, warna lembut, dan siluet yang mudah dipadukan untuk menemani harimu.</p><a href="#collection" class="text-link">Jelajahi koleksi <span>↗</span></a></div></div></section>
+<section class="gallery-section wrap section" id="gallery"><div class="section-head"><div><p class="eyebrow">INSPIRASI GAYA KAMU</p><h2>Galeri <em>koleksi.</em></h2><p class="muted">Lihat pilihan outfit Korean style dari koleksi kami.</p></div><a href="#collection" class="text-link">Belanja koleksi <span>↗</span></a></div><div id="gallery-grid" class="gallery-grid"></div></section>
+<section class="order-section" id="order"><div class="wrap order-grid"><div><p class="eyebrow">PESANAN PILIHANMU</p><h2>Keranjang<br><em>belanjamu.</em></h2><p class="muted">Pilih outfit yang kamu suka, lalu kirim detail pesanan melalui WhatsApp.</p><div class="order-tip"><span>✳</span><p>Harga di katalog merupakan estimasi. Admin akan mengonfirmasi harga final, ongkir, dan ketersediaan metode pembayaran sebelum kamu membayar.</p></div></div>
+<div class="bag-card"><div class="bag-title"><div><p class="eyebrow">PILIHANMU</p><h3>Keranjang belanja</h3></div><span id="bag-total-count" class="bag-count">0 item</span></div><div id="bag-items" class="bag-items"><p class="empty">Keranjangmu masih kosong.</p></div>
+<div class="bag-total"><span>Subtotal produk</span><strong id="bag-subtotal">Rp0</strong></div><p class="payment-note">Ongkos kirim belum termasuk. Harga final dikonfirmasi admin.</p>
+<div class="form-fields"><label for="customer-name">Nama lengkap</label><input id="customer-name" placeholder="Nama lengkap" autocomplete="name"><label for="customer-phone">Nomor WhatsApp kamu</label><input id="customer-phone" type="tel" placeholder="Contoh: 081234567890" autocomplete="tel"><label for="payment-method">Metode pembayaran pilihan</label><select id="payment-method"><option value="">Pilih metode pembayaran</option><option value="Transfer bank">Transfer bank</option><option value="QRIS">QRIS</option><option value="COD (jika tersedia)">COD (jika tersedia)</option></select><p class="payment-note">Pilihan metode dan detail pembayaran resmi (rekening/QRIS) akan dikonfirmasi admin melalui WhatsApp. Jangan transfer sebelum menerima konfirmasi.</p><label for="customer-note">Catatan pesanan <span>(opsional)</span></label><textarea id="customer-note" rows="3" placeholder="Warna atau pertanyaan..."></textarea></div>
+<button id="checkout" class="btn dark full" type="button">Checkout via WhatsApp <span>↗</span></button><p id="status" class="status" role="status" aria-live="polite">Tambahkan produk ke keranjang untuk mulai berbelanja.</p>
+</div></div>
+<div class="wrap order-history" id="order-history"><div class="bag-title"><div><p class="eyebrow">PESANAN SEBELUMNYA</p><h3>Riwayat pemesanan</h3></div><span id="history-count" class="bag-count">0 pesanan</span></div><p class="history-note">Riwayat tersimpan di perangkat ini saja dan tidak dikirim ke server.</p><div id="order-history-list" aria-live="polite"><p class="empty">Belum ada riwayat pemesanan.</p></div></div>
+</section>
+<section class="faq-section" id="faq"><div class="wrap faq-grid"><div><p class="eyebrow">ADA YANG INGIN DITANYAKAN?</p><h2>Pertanyaan<br><em>umum.</em></h2><p class="muted">Belum menemukan jawabannya? Hubungi kami lewat WhatsApp.</p><a class="btn dark" href="https://wa.me/6289677752947" target="_blank" rel="noopener noreferrer">Tanya admin <span>↗</span></a></div><div class="faq-list">
+<details><summary>Bagaimana cara memesan?</summary><p>Pilih produk, tambahkan ke keranjang, isi nama dan nomor WhatsApp, lalu tekan Checkout via WhatsApp untuk mengirim pesanan ke admin.</p></details>
+<details><summary>Apakah harga dan stok sudah pasti?</summary><p>Harga, warna, dan ketersediaan akan dikonfirmasi admin melalui WhatsApp sebelum pembayaran. Semua produk berukuran AllSize.</p></details>
+<details><summary>Bagaimana cara memilih ukuran atau warna?</summary><p>Semua produk menggunakan ukuran AllSize. Tulis warna yang diinginkan di catatan pesanan; admin akan membantu mengecek pilihan yang tersedia.</p></details>
+<details><summary>Bagaimana dengan pembayaran dan pengiriman?</summary><p>Pilih preferensi transfer bank, QRIS, atau COD (jika tersedia). Admin akan mengonfirmasi metode yang tersedia, harga final, ongkos kirim, dan detail pembayaran resmi melalui WhatsApp. Jangan membayar sebelum menerima konfirmasi.</p></details>
+</div></div></section>
+<section class="contact-section" id="contact"><div class="wrap contact-card"><div><p class="eyebrow">KAMI SIAP MEMBANTU</p><h2>Hubungi <em>kami.</em></h2><p class="muted">Ada pertanyaan tentang koleksi atau pesanan? Chat admin langsung.</p></div><div class="contact-actions"><a class="contact-number" href="tel:089677752947">0896-7775-2947</a><a class="btn dark" href="https://wa.me/6289677752947" target="_blank" rel="noopener noreferrer">Chat WhatsApp <span>↗</span></a></div></div></section>
+</main>
+<footer><div class="wrap footer-main"><a class="brand footer-brand" href="#home"><img src="assets/images/logo-round.png" alt=""><span>my fashion<span class="light">store</span><small>MODERN · CONTEMPORARY · QUALITY</small></span></a><p>Find your style, feel like you.</p><a href="#home" class="backtop">KEMBALI KE ATAS ↑</a></div><div class="wrap footer-bottom"><span>© <span id="year"></span> my fashionstore</span><a href="tel:089677752947">WhatsApp: 0896-7775-2947</a></div></footer>
+<script type="module" src="js/app.js"></script>
+</body></html>
