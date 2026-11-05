@@ -1,0 +1,31 @@
+export const PRODUCT_SIZE = "AllSize";
+
+export const PRODUCTS = [
+ {id:"look-01",name:"Blue & White Mini Dress",category:"feminine",label:"Feminine",description:"Dress mini biru-putih untuk tampilan manis dan ringan.",image:"assets/images/Korean Blue & White   Mini Dress.jpg",tag:"SOFT & SWEET",price:179000},
+ {id:"look-02",name:"Blue Knit Cardigan",category:"casual",label:"Casual",description:"Cardigan rajut biru yang nyaman untuk daily look.",image:"assets/images/Korean Blue-Knit.jpg",tag:"EVERYDAY",price:159000},
+ {id:"look-03",name:"Burgundy Floral Dress",category:"feminine",label:"Feminine",description:"Dress floral bernuansa burgundy untuk gaya feminin.",image:"assets/images/Korean Burgundy Floral Dress.jpg",tag:"ROMANTIC",price:189000},
+ {id:"look-04",name:"Coquette Floral Dress",category:"coquette",label:"Coquette",description:"Motif floral manis dengan sentuhan coquette.",image:"assets/images/Korean Coquette-Floral.jpg",tag:"FAVORITE LOOK",price:189000},
+ {id:"look-05",name:"Cream Floral Outfit",category:"feminine",label:"Feminine",description:"Warna cream dan floral lembut untuk tampilan romantis.",image:"assets/images/Korean Cream-Floral.jpg",tag:"ROMANTIC",price:179000},
+ {id:"look-06",name:"Daily Floral Dress",category:"casual",label:"Casual",description:"Dress floral untuk menemani aktivitas sehari-hari.",image:"assets/images/Korean Daily-Floral.jpg",tag:"EVERYDAY",price:169000},
+ {id:"look-07",name:"Korean Denim Dress",category:"casual",label:"Casual",description:"Dress denim kasual yang mudah dipadukan.",image:"assets/images/Korean Denim Dress.jpg",tag:"CASUAL",price:199000},
+ {id:"look-08",name:"Denim White Dress",category:"feminine",label:"Feminine",description:"Perpaduan denim dan putih dengan gaya Korean look.",image:"assets/images/Korean Denim White Dress.jpg",tag:"NEW LOOK",price:199000},
+ {id:"look-09",name:"Grey Korean Dress",category:"casual",label:"Casual",description:"Dress abu-abu dengan siluet simpel dan nyaman.",image:"assets/images/Korean Dress Grey.jpg",tag:"EVERYDAY",price:169000},
+ {id:"look-10",name:"Blue Floral Dress",category:"coquette",label:"Coquette",description:"Dress biru bermotif floral untuk tampilan yang lembut.",image:"assets/images/Korean Floral Dress Blue.jpg",tag:"SOFT & SWEET",price:189000},
+ {id:"look-11",name:"Pink Cardigan",category:"feminine",label:"Feminine",description:"Cardigan pink yang manis untuk layering.",image:"assets/images/Korean Pink Cardigan.jpg",tag:"ROMANTIC",price:159000},
+ {id:"look-12",name:"Pink Floral Dress",category:"coquette",label:"Coquette",description:"Dress pink floral dengan nuansa feminin.",image:"assets/images/Korean Pink Floral Dresss.jpg",tag:"FAVORITE LOOK",price:189000},
+ {id:"look-13",name:"Soft Blue Floral Dress",category:"feminine",label:"Feminine",description:"Motif bunga dan warna biru lembut untuk daily outfit.",image:"assets/images/Korean Soft Blue Floral Dress.jpg",tag:"SOFT & SWEET",price:179000},
+ {id:"look-14",name:"Korean T-Shirt",category:"casual",label:"Casual",description:"Atasan kasual yang praktis untuk gaya sehari-hari.",image:"assets/images/Korean T-shirt.jpg",tag:"EVERYDAY",price:89000},
+ {id:"look-15",name:"White & Blue Cardigan",category:"casual",label:"Casual",description:"Cardigan kombinasi putih dan biru untuk layering.",image:"assets/images/Korean White & Blue  Cardigan.jpg",tag:"NEW LOOK",price:159000},
+ {id:"look-16",name:"White & Pink Cardigan",category:"coquette",label:"Coquette",description:"Cardigan putih-pink dengan detail manis.",image:"assets/images/Korean White - Pink  Motiv Cardigan.jpg",tag:"SOFT & SWEET",price:169000},
+ {id:"look-17",name:"White Korean Dress",category:"feminine",label:"Feminine",description:"Dress putih dengan tampilan bersih dan feminin.",image:"assets/images/Korean White Dress.jpg",tag:"ROMANTIC",price:179000},
+ {id:"look-18",name:"White & Chocolate Mini Dress",category:"coquette",label:"Coquette",description:"Dress mini putih-cokelat untuk gaya Korean-inspired.",image:"assets/images/White & Choco Korean Mini Dress.png",tag:"FAVORITE LOOK",price:179000},
+ {id:"look-19",name:"Chocolate Floral Daster",category:"feminine",label:"Feminine",description:"Daster motif floral bernuansa cokelat yang nyaman dipakai.",image:"assets/images/Korean Choco Floral Daster.jpg",tag:"SOFT & COMFY",price:99000},
+ {id:"look-20",name:"Cream Floral Daster",category:"feminine",label:"Feminine",description:"Daster floral warna cream dengan tampilan lembut.",image:"assets/images/Korean Cream Floral Daster.jpg",tag:"SOFT & COMFY",price:99000},
+ {id:"look-21",name:"Denim Jeans Motif",category:"casual",label:"Casual",description:"Celana jeans denim bermotif untuk gaya kasual.",image:"assets/images/Korean Denim Jeans Motiv.jpg",tag:"EVERYDAY",price:189000},
+ {id:"look-22",name:"Denim Jeans Pita",category:"coquette",label:"Coquette",description:"Celana jeans dengan detail pita yang manis.",image:"assets/images/Korean Denim Jeans Pita.jpg",tag:"SOFT & SWEET",price:199000},
+ {id:"look-23",name:"Green Floral Daster",category:"feminine",label:"Feminine",description:"Daster floral hijau dengan detail renda yang feminin.",image:"assets/images/Korean Hijau Floral  Daster - Renda.jpg",tag:"ROMANTIC",price:109000},
+ {id:"look-24",name:"Pink Jeans",category:"casual",label:"Casual",description:"Celana jeans pink untuk pilihan gaya kasual yang manis.",image:"assets/images/Korean Pink Jeans.jpg",tag:"NEW LOOK",price:189000},
+ {id:"look-25",name:"White Jeans Lace",category:"feminine",label:"Feminine",description:"Celana jeans putih dengan detail renda.",image:"assets/images/Korean White Jeans  Model Renda.jpg",tag:"NEW LOOK",price:189000},
+ {id:"look-26",name:"White Jeans with Pink Bow",category:"coquette",label:"Coquette",description:"Celana jeans putih dengan motif dan aksen pita pink.",image:"assets/images/Korean White Jeans Motiv - Pink Pita.png",tag:"FAVORITE LOOK",price:199000},
+ {id:"look-27",name:"Yellow Polkadot Daster",category:"feminine",label:"Feminine",description:"Daster kuning bermotif polkadot untuk tampilan ceria.",image:"assets/images/Korean Yellow Fulkadot Daster.jpg",tag:"SOFT & COMFY",price:99000}
+];
